@@ -1,0 +1,13 @@
+#main {
+    max-height: 500px;
+    overflow: auto;
+}
+
+#container {
+    height: 500px;
+    overflow: auto;
+}
+
+#content {
+    height: 500px;
+}

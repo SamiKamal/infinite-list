@@ -1,0 +1,23 @@
+{
+  "name": "infinite-list",
+  "type": "module",
+  "version": "1.0.0",
+  "description": "A library that enables you to render infinite lists",
+  "source": "./src/index.js",
+  "main": "./dist/main.js",
+  "scripts": {
+    "build": "parcel build",
+    "watch": "parcel watch",
+    "serve": "parcel"
+  },
+  "targets": {
+    "frontend": {
+      "source": "./src/index.html"
+    }
+  },
+  "author": "Sami Ibrahim",
+  "license": "ISC",
+  "devDependencies": {
+    "parcel": "^2.11.0"
+  }
+}
